@@ -1,0 +1,62 @@
+.header .item{
+	margin-right: 25px;
+	display: inline-block;
+	line-height: 60px;
+}
+.title .name{
+	width: 160px;
+	background: #409EFF;
+	color: #fff;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-left: 20px;
+}
+.table{
+	margin-bottom: 30px;
+	padding: 0 20px;
+}
+.graid{
+	display: inline-block;
+	padding: 15px 15px;
+	background: url('../img/le_default.png') no-repeat center center;
+	background-size: 100% 100%;
+	vertical-align: middle;
+}
+.graid:nth-of-type(2){
+	background-image: url('../img/le.png');
+}
+#app td.is-center{
+	text-align: left;
+}
+.border{
+	position: relative;
+	display: inline-block;
+	width: 50px;
+}
+.border::before{
+	content: '';
+	left: 0;
+	width: 50px;
+	height: 1px;
+	background: #999;
+	position: absolute;
+	top: -5px;
+}
+.el-table .theader tr,
+.el-table .theader th{
+	background: #f7f7f7;
+}
+.down{
+	text-decoration: underline;
+	color: #409EFF;
+	font-size: 14px;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	width: 50px;
+	text-align: center;
+	width: 70px;
+}
+
